@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+SJFrameSwift in Pods, no dependencies
+Pods-GoogleMapPrjct in Pods, depends on:
+SJFrameSwift in Pods (explicit)

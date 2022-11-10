@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="infoView" customModule="GoogleMapPrjct" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ymg-lT-6mX">
+                    <rect key="frame" x="50" y="73" width="100" height="54"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOz-0z-aKx">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click Here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4Q-9j-cNh">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="l4Q-9j-cNh" secondAttribute="trailing" id="G28-M9-uhL"/>
+                        <constraint firstAttribute="trailing" secondItem="bOz-0z-aKx" secondAttribute="trailing" id="GpV-pr-Nut"/>
+                        <constraint firstAttribute="bottom" secondItem="l4Q-9j-cNh" secondAttribute="bottom" id="ZrP-Mv-A0i"/>
+                        <constraint firstItem="bOz-0z-aKx" firstAttribute="top" secondItem="Ymg-lT-6mX" secondAttribute="top" id="bsF-GD-jed"/>
+                        <constraint firstItem="bOz-0z-aKx" firstAttribute="leading" secondItem="Ymg-lT-6mX" secondAttribute="leading" id="cCr-fo-FC4"/>
+                        <constraint firstItem="l4Q-9j-cNh" firstAttribute="leading" secondItem="Ymg-lT-6mX" secondAttribute="leading" id="laI-YS-uAr"/>
+                        <constraint firstAttribute="bottom" secondItem="bOz-0z-aKx" secondAttribute="bottom" id="o1w-2Y-eQE"/>
+                        <constraint firstItem="l4Q-9j-cNh" firstAttribute="top" secondItem="Ymg-lT-6mX" secondAttribute="top" id="y2k-iy-O3Y"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Ymg-lT-6mX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4r9-xS-HYc"/>
+                <constraint firstItem="Ymg-lT-6mX" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.27" id="Om8-Y9-NA0"/>
+                <constraint firstItem="Ymg-lT-6mX" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="gLB-Q0-ilu"/>
+                <constraint firstItem="Ymg-lT-6mX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="h9W-Dy-Quo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonInfoView" destination="bOz-0z-aKx" id="6ay-O2-PuT"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="81.696428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

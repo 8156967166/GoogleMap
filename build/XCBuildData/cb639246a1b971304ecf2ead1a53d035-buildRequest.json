@@ -1,0 +1,49 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9803066e809b6c81f5e349fee5236aad8f"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98761a26dc785811b39e9e3c6a956482a7"
+    }
+  ],
+  "containerPath" : "/Users/appstation/Desktop/Aneesha/GoogleMapPrjct/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/appstation/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/appstation/Library/Developer/Xcode/DerivedData/Pods-eclcwkoskvuzidfciuadhwmiyxyy/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/appstation/Library/Developer/Xcode/DerivedData/Pods-eclcwkoskvuzidfciuadhwmiyxyy/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
